@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/gh-pages/sw.js', { scope: '/gh-pages/' })})}
